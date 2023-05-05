@@ -1,0 +1,14 @@
+a) Differences:
+git pull: Récupère tout l'historique du dépôt nommé et incorpore les modification.
+git fetch: Récupère tout l'historique du dépôt nommé.
+
+b) Annulation des modifications locales non validees dans git:
+On peut faire un $ git reset [commit] qui annule tous les commits après [commit] , en conservant les 
+modifications localement.
+
+
+c) Supprimer une branche distante dans git:
+On peut faire $ git branch -d [nom-de-branche]
+
+d) Voir l'historique des modifications pour un fichier specifique dans git:
+On fait $ git fetch [nom-de-depot]
